@@ -4,130 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5d45b3b-9725-4c1d-9d1c-62ff948a4c0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/8.5/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/AuthServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/config/KafkaConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/config/RedisConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/dto/LoginDTO$LoginDTOBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/dto/LoginDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/dto/ResponseMessageDTO$ResponseMessageDTOBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/dto/ResponseMessageDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/entity/UserEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/exception/APIExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/exception/LoginException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/mapper/UserMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/classes/java/main/ru/app/shiba/authservice/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/generated/sources/annotationProcessor/java/main/ru/app/shiba/authservice/mapper/UserMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/resources/main/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ru/app/shiba/authservice/AuthServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ru/app/shiba/authservice/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ru/app/shiba/authservice/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ru/app/shiba/authservice/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ru/app/shiba/authservice/dto/LoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ru/app/shiba/authservice/dto/ResponseMessageDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ru/app/shiba/authservice/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ru/app/shiba/authservice/exception/APIExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ru/app/shiba/authservice/exception/LoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ru/app/shiba/authservice/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ru/app/shiba/authservice/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ru/app/shiba/authservice/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ru/app/shiba/authservice/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-service/src/test/java/ru/app/shiba/authservice/AuthServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-library/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-library/build/classes/java/main/general/kafka/dto/UserDTO$UserDTOBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-library/build/classes/java/main/general/kafka/dto/UserDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-library/build/libs/common-library-1.0.0-plain.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-library/build/libs/common-library-1.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-library/build/tmp/compileJava/compileTransaction/stash-dir/UserDTO$UserDTOBuilder.class.uniqueId0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-library/build/tmp/compileJava/compileTransaction/stash-dir/UserDTO.class.uniqueId1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-library/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-library/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-library/src/main/java/general/kafka/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/classes/java/main/ru/app/shiba/userservice/UserServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/classes/java/main/ru/app/shiba/userservice/config/KafkaConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/classes/java/main/ru/app/shiba/userservice/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/classes/java/main/ru/app/shiba/userservice/dto/ResponseMessage$ResponseMessageBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/classes/java/main/ru/app/shiba/userservice/dto/ResponseMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/classes/java/main/ru/app/shiba/userservice/entity/UserEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/classes/java/main/ru/app/shiba/userservice/exception/APIExceptionHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/classes/java/main/ru/app/shiba/userservice/exception/EntityProcessingException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/classes/java/main/ru/app/shiba/userservice/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/classes/java/main/ru/app/shiba/userservice/mapper/UserMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/classes/java/main/ru/app/shiba/userservice/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/classes/java/main/ru/app/shiba/userservice/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/classes/java/main/ru/app/shiba/userservice/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/generated/sources/annotationProcessor/java/main/ru/app/shiba/userservice/mapper/UserMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/resources/main/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/ru/app/shiba/userservice/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/ru/app/shiba/userservice/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/ru/app/shiba/userservice/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/ru/app/shiba/userservice/dto/ResponseMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/ru/app/shiba/userservice/entity/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/ru/app/shiba/userservice/exception/APIExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/ru/app/shiba/userservice/exception/EntityProcessingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/ru/app/shiba/userservice/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/ru/app/shiba/userservice/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/ru/app/shiba/userservice/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/ru/app/shiba/userservice/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/ru/app/shiba/userservice/UserServiceApplicationTests.java" afterDir="false" />
+    <list default="true" id="f5d45b3b-9725-4c1d-9d1c-62ff948a4c0b" name="Changes" comment="ready">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,14 +49,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2tzIZJICV4qm2mGsJYvEUPd0htN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -198,7 +77,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.AuthServiceApplication.executor": "Run",
     "Spring Boot.UserServiceApplication.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/JavaProjects/1/user-microservices-manager",
@@ -291,7 +170,9 @@
       </method>
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
-      <deployment type="docker-compose.yml" />
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
@@ -326,8 +207,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741348535610</updated>
-      <workItem from="1741348536631" duration="3846000" />
+      <workItem from="1741348536631" duration="6301000" />
     </task>
+    <task id="LOCAL-00001" summary="ready">
+      <option name="closed" value="true" />
+      <created>1741352419526</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741352419526</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,5 +233,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="ready" />
   </component>
 </project>
