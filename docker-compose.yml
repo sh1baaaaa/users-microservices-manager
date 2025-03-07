@@ -1,0 +1,58 @@
+version: latest
+
+services:
+  redis:
+    image: redis:latest
+    container_name: redis
+    environment:
+      - REDIS_PASSWORD=root
+      - REDIS_USER_PASSWORD=root
+      - REDIS_USER=root
+    ports:
+      - "6379:6379"
+  postgresql:
+    image: postgres:latest
+    container_name: postgresql
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=user_db
+    ports:
+      - "5432:5432"
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.4.0
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  kafka:
+    image: confluentinc/cp-kafka:7.4.0
+    container_name: kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - "9093:9093"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:9092,PLAINTEXT_HOST://0.0.0.0:9093
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:9093
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "false"
+
+  kafka-cli:
+    image: confluentinc/cp-kafka:7.4.0
+    container_name: kafka-cli
+    depends_on:
+      - kafka
+    entrypoint: >
+      /bin/sh -c "
+      sleep 10 &&
+      kafka-topics --create --topic user-topic --bootstrap-server kafka:9092 --partitions 2 --replication-factor 1 &&
+      kafka-topics --create --topic update-user-topic --bootstrap-server kafka:9092 --partitions 3 --replication-factor 1 &&
+      echo 'All topics created' &&
+      tail -f /dev/null
+      "

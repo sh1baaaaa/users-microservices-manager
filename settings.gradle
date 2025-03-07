@@ -1,0 +1,3 @@
+rootProject.name = 'user-microservices-manager'
+include 'common-library', 'user-service', 'auth-service'
+
